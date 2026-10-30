@@ -24,7 +24,7 @@ footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);color:v
 <body><div class="wrap">
 <nav><a href="/">Focus Crab</a><a href="/privacy.html">Privacy</a><a href="/support.html">Support</a><a href="/ru/">Русский</a></nav>
 <h1>Privacy Policy</h1>
-<p class="meta">Focus Crab · effective 23 September 2026</p>
+<p class="meta">Focus Crab · effective 30 October 2026</p>
 <div class="box"><p style="margin:0"><strong>The short version.</strong> Focus Crab has no
 account, no server of ours, no analytics, no advertising and no third-party SDKs. Your
 goals, plans and sessions stay in your own store on your device, and sync through
@@ -43,8 +43,11 @@ any kind in the app.</p>
   to read it, and no copy of it.</li>
   <li><strong>Device settings.</strong> The app uses the system's standard settings storage
   for its own preferences on this device — chosen language, notification tone, and similar.
-  This is declared in the app's privacy manifest under Apple's required-reason category
-  CA92.1.</li>
+  Some of these are kept in the app's App Group, so that the app, its watch app and its
+  Live Activity read the same values on your device; nothing outside that group can read
+  them. Both uses are declared in the app's privacy manifest under Apple's required-reason
+  categories CA92.1 (the app's own settings) and 1C8F.1 (settings shared within the app's
+  App Group).</li>
 </ul>
 <p>Turning sync off leaves everything on the device. Deleting the app removes the local
 store; the iCloud copy is removed through iOS Settings → your name → iCloud → Manage
